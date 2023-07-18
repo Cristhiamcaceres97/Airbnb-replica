@@ -1,0 +1,133 @@
+img {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.buscador {
+/*   position: fixed;
+  z-index: 999; */
+  display: flex;
+  list-style: none;
+  border: 1px #bebebe solid;
+  border-radius: 30px;
+  margin-left: 200px;
+  padding-right: 5px;
+  padding-top: 12px;
+  padding-bottom: 0px;
+  width: 520px;
+  height: 45px;
+  font-size: 13px;
+  box-shadow: 0 2px 3px rgba(128, 125, 125, 0.5);
+}
+
+.buscador ul {
+  display: flex;
+  list-style: none;
+}
+
+.buscador li {
+  margin-left: 20px;
+  margin-right: 5px;
+  border-right: 1px #bebebe solid;
+  height: 25px;
+  padding-right: 10px;
+}
+
+.cuantos b {
+  color: rgb(177, 166, 166);
+  text-transform: none;
+  margin-left: 10px;
+}
+
+.cuantos {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.cuantos i {
+  position: relative;
+  bottom: 1px;
+  background-color: #ff385c;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 2px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  padding: 7px;
+  text-align: center;
+  align-items: center;
+}
+
+.buscador:hover {
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(128, 125, 125, 0.5);
+}
+
+.navclick {
+  margin-left: 35px;
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  margin-top: 47px;
+}
+
+.navclick:hover {
+  background-color: #f7f7f7;
+}
+
+.mundo button {
+  width: 45px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+}
+
+.mundo button:hover {
+  background-color: #f7f7f7;
+}
+
+.avatar {
+  position: relative;
+  bottom: 45px;
+  left: 340px;
+  border: 1px #bebebe solid;
+  width: 50px;
+  margin-left: 5px;
+  color: black;
+  align-items: center;
+  width: 85px;
+  height: 40px;
+  border-radius: 25px;
+  padding-bottom: 5px;
+}
+
+.avatar span {
+  margin-bottom: 10px;
+}
+
+.avatar i {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.avatar:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(128, 125, 125, 0.5);
+}
+
+.lista {
+  position: relative;
+  bottom: 3px;
+}
+
+.persona {
+  position: relative;
+  bottom: 2px;
+  color: gray;
+}

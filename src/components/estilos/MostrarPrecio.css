@@ -1,0 +1,63 @@
+.cuadro-precio {
+    border: 1px #DDDDDD solid;
+    margin-top: 190px;
+    height: 70px;
+    width: 633px;
+   margin-left: 360px;
+   border-radius: 10px;
+}
+
+.cuadro-precio ul  {
+    display: flex;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.cuadro-precio li {
+   margin-left: 5px;
+   padding-top: 5px;
+}
+
+.separador  {
+    width: 320px;
+    height: 62px;
+    position: relative;
+    bottom: 12px;
+    border-left: 1px solid #DDDDDD;
+    padding-left: 10px;
+}
+
+.cuadro-precio i {
+    width: 20px;
+    position: relative;
+    bottom: 23px;
+    left: 20px;
+    font-size: 3em;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bi-toggle-on {
+    position: relative;
+    bottom: 23px;
+    left: 20px;
+    font-size: 3em; 
+    cursor: pointer;
+  }
+
+  .cuadro-precio i.encendido {
+    color: rgb(126, 126, 126);
+    animation: toggleAnimation 0.3s ease-in-out forwards;
+  }
+  
+  @keyframes toggleAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
