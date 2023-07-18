@@ -8,7 +8,7 @@ const Carousel = () => {
       className="imagenes"
       style={{
         position: "fixed",
-        top: "80px", // Ajusta esta propiedad según la altura de tu barra de navegación
+        top: "80px",
         left: 0,
         right: 0,
         zIndex: 999,
@@ -18,25 +18,25 @@ const Carousel = () => {
         <li>
           <div className="image-uno">
             <img
-              src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg"
+              src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"
               alt="uno"
               width={24}
               height={24}
             />
           </div>
         </li>
-        <span className="uno">Cabañas</span>
+        <span className="uno">Piscinas increibles</span>
         <li>
           <div className="image-container">
             <img
-              src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg"
+              src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg"
               alt="dos"
               width={24}
               height={24}
             />
           </div>
         </li>
-        <span className="texto-dos">Piscinas increibles</span>
+        <span className="texto-dos">Cabañas</span>
         <li>
           <div className="image-container">
             <img
