@@ -3,7 +3,7 @@ import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 
 const Footer = () => {
   return (
-    <footer style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "10px", position: "fixed", bottom: 0, left: 0, width: "100%", backgroundColor: "#ffffff", borderTop: "1px solid #bebebe", zIndex: 999, marginTop: "20px" }}>
+    <footer style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "10px", position: "fixed", bottom: 0, left: 0, width: "100%", backgroundColor: "#ffffff", borderTop: "1px solid #bebebe", zIndex: 999, marginTop: "10px" }}>
       <div>
         © 2023 Airbnb, Inc.  ·   Privacidad  ·    Términos  ·   Mapa del sitio   ·    Datos de la empresa
       </div>

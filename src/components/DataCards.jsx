@@ -18,8 +18,8 @@ const CardComponent = ({ images, ubicacion, distancia, dias, precio }) => {
 
   const heartIconStyle = {
     position: "relative",
-    left: "240px",
-    bottom: "260px",
+    left: "230px",
+    bottom: "250px",
     fontSize: "1.4rem",
     backgroundColor: "transparent",
     cursor: "pointer",
@@ -36,11 +36,11 @@ const CardComponent = ({ images, ubicacion, distancia, dias, precio }) => {
 
   return (
     <div
-      className="card border-2"
+      className="card border-0"
       style={{
         width: "311px",
         height: "65%",
-        marginTop: "55%",
+      
         marginLeft: "10px",
         padding: "0",
       }}
@@ -54,7 +54,7 @@ const CardComponent = ({ images, ubicacion, distancia, dias, precio }) => {
         prevIcon={
           isHovered ? (
             <i
-            className="❮"
+            className=""
             style={{
               width: "75px",
               height: "37px",
@@ -154,9 +154,10 @@ const CardComponent = ({ images, ubicacion, distancia, dias, precio }) => {
 
 const DataCards = ({ data }) => {
   return (
-    <div
-      className="row g-0"
-      style={{ paddingBottom: "5rem", marginTop: "2rem" }}
+<div className="Container">
+<div
+      className="row"
+      style={{ paddingBottom: "5rem", marginTop: "12rem" }}
     >
       {data.map((item, index) => (
         <div className="col-3" key={index}>
@@ -164,6 +165,7 @@ const DataCards = ({ data }) => {
         </div>
       ))}
     </div>
+</div>
   );
 };
 

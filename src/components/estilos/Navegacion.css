@@ -133,3 +133,22 @@ img {
   bottom: 2px;
   color: gray;
 }
+
+.modal-custom {
+  position: fixed;
+  bottom: 63%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-custom-content {
+  width: 250px;
+}
+
+.modal-list {
+  list-style-type: none;
+}
+
+.inicia-sesion {
+  border-bottom: 1px solid gray;
+}
