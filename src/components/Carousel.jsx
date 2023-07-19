@@ -122,7 +122,7 @@ const Carousel = () => {
         </span>
         <li className="filtro">
           <img
-            src="https://t4.ftcdn.net/jpg/03/76/93/85/240_F_376938501_3Pwud7cFhKQQjme2vI2uJ8WG5DF0qOVj.jpg"
+            src="https://t3.ftcdn.net/jpg/03/20/78/84/360_F_320788419_5apyi8WJlvD7RuBivEyY23TfXLYoN46J.jpg"
             width={24}
             height={24}
             style={{ bc: "black" }}

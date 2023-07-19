@@ -3,9 +3,11 @@ img {
   cursor: pointer;
 }
 
+.navegacion {
+  border-bottom: 1px solid #bebebe;
+}
+
 .buscador {
-/*   position: fixed;
-  z-index: 999; */
   display: flex;
   list-style: none;
   border: 1px #bebebe solid;

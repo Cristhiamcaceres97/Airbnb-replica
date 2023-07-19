@@ -17,7 +17,6 @@ const Navegacion = () => {
         right: 0,
         zIndex: 999,
         height: "80px",
-        borderBottom: "1px solid #F7F7F7;",
       }}
     >
       <Navbar.Brand>
@@ -28,7 +27,7 @@ const Navegacion = () => {
           <ul>
             <li><b>En cualquier lugar del mundo</b></li>
             <li><b>Cualquier semana </b></li>
-            <span className="cuantos">
+            <span className="cuántos">
               <b>¿Cuantos? </b>
               <i className="bi bi-search"></i>
             </span>
