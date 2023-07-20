@@ -12,7 +12,7 @@ img {
   list-style: none;
   border: 1px #bebebe solid;
   border-radius: 30px;
-  margin-left: 200px;
+  margin-left: 215px;
   padding-right: 5px;
   padding-top: 12px;
   padding-bottom: 0px;
@@ -69,7 +69,7 @@ img {
 }
 
 .navclick {
-  margin-left: 35px;
+  margin-left: 50px;
   border-radius: 25px;
   padding: 10px;
   border: none;
@@ -84,7 +84,7 @@ img {
 .mundo button {
   width: 45px;
   height: 40px;
-  margin-left: 20px;
+  margin-left: 0px;
   border-radius: 50%;
   border: none;
   background-color: transparent;
@@ -96,10 +96,10 @@ img {
 
 .avatar {
   position: relative;
-  bottom: 45px;
-  left: 340px;
+  bottom: 42px;
+  left: 310px;
   border: 1px #bebebe solid;
-  width: 50px;
+  width: 45px;
   margin-left: 5px;
   color: black;
   align-items: center;
@@ -136,17 +136,30 @@ img {
 
 .modal-custom {
   position: fixed;
-  bottom: 63%;
-  left: 80%;
-  transform: translate(-50%, -50%);
-}
-
-.modal-custom-content {
-  width: 250px;
+  bottom: 55%;
+  left: 77%;
+  background-color: transparent;
+  cursor: pointer;
+  
 }
 
 .modal-list {
   list-style-type: none;
+  padding: 0px;
+} 
+
+.modal-list li {
+  padding: 10px;
+  padding-right: 70px;
+  padding-left: 15px;
+}
+
+.modal-list li:hover {
+  background-color: #eee5e5;
+}
+
+.modal-body {
+  padding: 0;
 }
 
 .inicia-sesion {

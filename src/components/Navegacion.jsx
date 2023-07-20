@@ -31,13 +31,21 @@ const Navegacion = () => {
         }}
       >
         <Navbar.Brand>
-          <img src={logo} alt="Logo" style={{ height: "65px", width: "135px" }} />
+          <img
+            src={logo}
+            alt="Logo"
+            style={{ height: "65px", width: "135px" }}
+          />
         </Navbar.Brand>
         <nav>
           <div className="buscador">
             <ul>
-              <li><b>En cualquier lugar del mundo</b></li>
-              <li><b>Cualquier semana </b></li>
+              <li>
+                <b>En cualquier lugar del mundo</b>
+              </li>
+              <li>
+                <b>Cualquier semana </b>
+              </li>
               <span className="cuántos">
                 <b>¿Cuantos? </b>
                 <i className="bi bi-search"></i>
@@ -68,10 +76,11 @@ const Navegacion = () => {
         onHide={handleCloseModal}
         dialogClassName="modal-custom"
         contentClassName="modal-custom-content"
+        backdrop="false" // Agregar esta línea
       >
         <Modal.Body>
           <ul className="modal-list">
-            <li>Regístrate</li>
+            <li><h6>Regístrate</h6></li>
             <li className="inicia-sesion">Inicia sesión</li>
             <li>Pon tu espacio en Airbnb</li>
             <li>Ayuda</li>
