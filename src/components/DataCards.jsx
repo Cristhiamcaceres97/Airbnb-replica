@@ -148,7 +148,7 @@ const CardComponent = ({ images, ubicacion, distancia, dias, precio }) => {
           Precio: <span style={{ fontWeight: "bold" }}>{precio}</span> noche
         </p>
       </div>
-    </div>
+    </div>  
   );
 };
 

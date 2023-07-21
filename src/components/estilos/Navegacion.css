@@ -165,3 +165,35 @@ img {
 .inicia-sesion {
   border-bottom: 1px solid gray;
 }
+
+.modal-header-custom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px #bebebe solid
+}
+
+.transparent-btn {
+  background-color: transparent;
+  border: none;
+  color: grey;
+}
+
+.transparent-btn:hover {
+  background-color: #bebebe;
+}
+
+.traductor {
+  position: relative;
+  left: 40px;
+  top: 20px;
+  border: #bebebe 1px solid;
+  width: 52%;
+  height: 80px;
+  background-color: #F7F7F7;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 20px;
+  color: gray;
+}
+

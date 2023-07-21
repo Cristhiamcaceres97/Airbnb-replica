@@ -1,0 +1,32 @@
+.mapeo {
+    display: grid;
+    place-items: center;
+    position: relative;
+    bottom: 700px;
+}
+
+.mapeo button {
+    background-color: #222222;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    position: fixed;
+    width: 200px;
+    padding-right: 0px;
+    font-size: 1rem;
+    padding: 6px;
+    padding-left: 29px;
+    cursor: pointer;
+    box-shadow: 0 0px 4px #222222;
+    transition: transform 0.2s; 
+}
+
+.mapeo button:hover {
+    transform: scale(1.1)
+}
+
+.mapeo img {
+    border-radius: 30%;
+    position: relative;
+    right: 30px;
+}
