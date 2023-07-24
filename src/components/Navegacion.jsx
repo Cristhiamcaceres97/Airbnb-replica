@@ -20,6 +20,7 @@ const Navegacion = () => {
     setModalVisible(true);
   };
 
+
   return (
     <>
       <Navbar
@@ -87,7 +88,7 @@ const Navegacion = () => {
       >
         <Modal.Header closeButton className="modal-header-custom">
           <Modal.Title>
-            <button className="btn btn-primary transparent-btn">
+            <button className="btn btn-primary transparent-btn" style={{marginBottom: "2px black solid !important"}}>
               Idioma y región
             </button>
             <button className="btn btn-primary transparent-btn">Moneda</button>

@@ -177,6 +177,7 @@ img {
   background-color: transparent;
   border: none;
   color: grey;
+  position: relative;
 }
 
 .transparent-btn:hover {
@@ -195,5 +196,39 @@ img {
   padding: 5px;
   padding-left: 20px;
   color: gray;
+}
+
+.modal-header-custom {
+  padding-left: 0px 0px 0px 0px !important;
+}
+.modal-header-custom.modal-header {
+  padding: 0px 0px 0px 0px !important;
+  padding-top: 70px !important;
+  margin-top: 3px;
+}
+
+.btn-close {
+  position: relative;
+  right: 1100px;
+  bottom: 65px;
+  border: none;
+  border-radius: 50%;
+}
+
+.btn-close:hover {
+   background-color: #F7F7F7;
+}
+
+.transparent-btn {
+  margin-left: 10px;
+}
+
+.modal-body {
+  height: auto;
+}
+
+.modal-body h3 {
+    margin-top: 50px;
+    padding-left: 20px;
 }
 
